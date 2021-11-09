@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gallery</title>
+	<link rel="stylesheet" href="css/stylegallery.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up fa-2x"></i></button>
+	<div class="background">
+		<header>
+			<div class="logo">
+				<a href="index.html"><h1>DA LAT</h1></a>
+			</div>
+			<nav>
+				<a href="index.html">HOME</a>
+				<div class="dropdown">
+					<a href="gallery.html"><button class="dropbtn" >GALLERY</button></a>
+					<div class="dropdown-content">
+						<a href="#travel">TRAVEL</a>
+						<a href="#food">FOOD</a>
+						<a href="#chill">CHILL</a>
+					</div>
+				</div>
+				<button class="dropbtn"><a href="index.html">ABOUT</a></button>
+			</nav>
+		</header>
+		<div class="banner scale-up-center">
+			<h1>GALLERY</h1>
+		</div>
+		<main>
+			<div data-aos="fade-up" class="gallery">
+				<div data-aos="fade-up" class="tab">
+					<button class="tablinks" onclick="openCity(event, 'all')" id="defaultOpen">All</button>
+					<button class="tablinks" onclick="openCity(event, 'travel')">Travel</button>
+					<button class="tablinks" onclick="openCity(event, 'food')">Food</button>
+					<button class="tablinks" onclick="openCity(event, 'chill')">Chill</button>
+				</div>
+				<div data-aos="fade-up" id="all" class="tabcontent">
+					<img src="img dalat/246804755_401678621539155_8789495998634474100_n.jpg" width="300px;">
+					<img src="img dalat/247284984_940261176601659_1509661832068916318_n.jpg" width="300px;">
+					<img src="img dalat/248008411_940261039935006_5858486989071072832_n.jpg" width="300px;">
+					<img src="img dalat/248025739_940261263268317_2487594313864379097_n.jpg" width="300px;">
+					<img src="img dalat/248149094_939337783360665_2800082937317672716_n.jpg" width="300px;">
+					<img src="img dalat/248425840_939337786693998_229825436700307702_n.jpg" width="300px;">
+					<img src="img dalat/248587072_940261096601667_5157536247777473463_n.jpg" width="300px;">
+					<img src="img dalat/248823872_939337763360667_6396464094170375842_n.jpg" width="300px;">
+					
+				</div>
+				<div data-aos="fade-up" id="travel" class="tabcontent">
+					<img src="img dalat/251497067_941557149805395_7662522458556360379_n.jpg" width="300px;">
+					<img src="img dalat/250535417_941556956472081_7687480728688061906_n.jpg" width="300px;">
+					<img src="img dalat/250868194_941556923138751_2558663775111062560_n.jpg" width="300px;">
+					<img src="img dalat/250910216_941557003138743_6435454801477292607_n.jpg" width="300px;">
+					<img src="img dalat/251193003_941556809805429_9175544232361655440_n.jpg" width="300px;">
+					<img src="img dalat/251291252_941556769805433_7393139515768210636_n.jpg" width="300px;">
+				</div>
+				<div data-aos="fade-up" id="food" class="tabcontent">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+					<img src="img dalat/253898508_944838969477213_1894710010076205112_n.jpg" width="300px;">
+				</div>
+				<div data-aos="fade-up" id="chill" class="tabcontent">
+					<img src="img dalat/248149094_939337783360665_2800082937317672716_n.jpg" width="300px;">
+					<img src="img dalat/246804755_401678621539155_8789495998634474100_n.jpg" width="300px;">
+					<img src="img dalat/248425840_939337786693998_229825436700307702_n.jpg" width="300px;">
+					<img src="img dalat/248823872_939337763360667_6396464094170375842_n.jpg" width="300px;">
+					<img src="img dalat/251838589_944134032881040_1122509301126877514_n.jpg" width="300px;">
+					<img src="img dalat/z2894278562893_a8e36c3b22fb86d5e04bf928a630c68f.jpg" width="300px;">
+				</div>
+			</div>
+		</main>
+		<footer>
+			<hr>
+			<div class="icon">
+				<a href="https://www.facebook.com/yuna.nguyen.92754/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/_macit.ht/"><i class="fa fa-instagram"></i></a>
+				<p>Copyright © 2020 Hoai Thuong</p>
+			</div>
+		</footer>
+	</div>
+	<script src="js/gallery.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	<script src="wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+</body>
+</html>
